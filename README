@@ -13,17 +13,17 @@ Examples:
 
 	    private static int startEncodingWorkflow() {
 	        // replace ID and key with your own
-	        String userID = "ID";
-	        String userKey = "key";
-	        String mediaID = "1";
+	        String userID = "777";
+	        String userKey = "277e0d0sdfaaa9140a27c03419f5era";
+	        String mediaID = "70456";
 	        StringBuffer xml = new StringBuffer();
 
 	        xml.append("<?xml version=\"1.0\"?>");
 	        xml.append("<query>");
-	        xml.append("<userid>777</userid>");
-	        xml.append("<userkey>277e0d0sdfaaa9140a27c03419f5era</userkey>");
+	        xml.append("<userid>"+userID+"</userid>");
+	        xml.append("<userkey>"+userKey+"</userkey>");
 	        xml.append("<action>GetMediaInfo</action>");
-	        xml.append("<mediaid>5676</mediaid>");
+	        xml.append("<mediaid>"+mediaID+"</mediaid>");
 	        xml.append("</query>");
 
 	        URL server = null;
