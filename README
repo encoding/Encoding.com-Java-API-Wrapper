@@ -20,10 +20,10 @@ Examples:
 
 	        xml.append("<?xml version=\"1.0\"?>");
 	        xml.append("<query>");
-	        xml.append("<userid>"+userID+"</userid>");
-	        xml.append("<userkey>"+userKey+"</userkey>");
+	        xml.append("<userid>777</userid>");
+	        xml.append("<userkey>277e0d0sdfaaa9140a27c03419f5era</userkey>");
 	        xml.append("<action>GetMediaInfo</action>");
-	        xml.append("<mediaid>"+mediaID+"</mediaid>");
+	        xml.append("<mediaid>5676</mediaid>");
 	        xml.append("</query>");
 
 	        URL server = null;
