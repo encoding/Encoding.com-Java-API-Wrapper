@@ -8,7 +8,7 @@ Requires a API Key and User ID from Encoding.com.  30day adn 1GB free trial avai
 Examples:
 	import java.io.*;
 	import java.net.*;
-
+   
 	public class EncodingTest {
 
 	    private static int startEncodingWorkflow() {
